@@ -1,0 +1,7 @@
+Lexical Error: line 3, lexem _Aaaaaaaaaaaa is Unknown
+Lexical Error: line 3, lexem aaaaa is Unknown
+
+Syntax error in line 3 : another type of lexeme was expected.
+
+Syntax error: type Unknown
+Expected Type: Identifier 

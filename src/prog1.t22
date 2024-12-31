@@ -1,0 +1,17 @@
+##Prog1##
+NAME prog1; 
+DATA INTEGER32_t _Aaaaaaaaaaaaaaaaa,_Bbbbbbbbbbbbbbbbb,_Xxxxxxxxxxxxxxxxx,_Yyyyyyyyyyyyyyyyy;
+BODY
+INPUT _Aaaaaaaaaaaaaaaaa;
+INPUT _Bbbbbbbbbbbbbbbbb;
+OUTPUT _Aaaaaaaaaaaaaaaaa + _Bbbbbbbbbbbbbbbbb;
+OUTPUT _Aaaaaaaaaaaaaaaaa - _Bbbbbbbbbbbbbbbbb;
+OUTPUT _Aaaaaaaaaaaaaaaaa * _Bbbbbbbbbbbbbbbbb;
+OUTPUT _Aaaaaaaaaaaaaaaaa DIV _Bbbbbbbbbbbbbbbbb;
+OUTPUT _Aaaaaaaaaaaaaaaaa MOD _Bbbbbbbbbbbbbbbbb;
+
+_Xxxxxxxxxxxxxxxxx<==(_Aaaaaaaaaaaaaaaaa - _Bbbbbbbbbbbbbbbbb) * 10 + (_Aaaaaaaaaaaaaaaaa + _Bbbbbbbbbbbbbbbbb) DIV 10;
+_Yyyyyyyyyyyyyyyyy<==_Xxxxxxxxxxxxxxxxx + (_Xxxxxxxxxxxxxxxxx MOD 10);
+OUTPUT _Xxxxxxxxxxxxxxxxx;
+OUTPUT _Yyyyyyyyyyyyyyyyy;
+END
