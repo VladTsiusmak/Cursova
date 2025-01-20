@@ -1,0 +1,118 @@
+|-- program
+|    |-- var
+|    |    |-- _Ccccccccccccccc
+|    |    |-- var
+|    |    |    |-- _Ttttttttttttttt
+|    |    |    |-- var
+|    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |-- var
+|    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |-- statement
+|    |    |-- statement
+|    |    |    |-- statement
+|    |    |    |    |-- statement
+|    |    |    |    |    |-- statement
+|    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- if
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- then
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- Outofia
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Ttttttttttttttt
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- Outofib
+|    |    |    |    |    |    |    |    |    |    |    |    |    |-- if
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- &
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- then
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- Outofic
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- Outofif
+|    |    |    |    |    |    |    |    |    |    |    |    |-- Outofia
+|    |    |    |    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |    |    |    |-- _Ttttttttttttttt
+|    |    |    |    |    |    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |-- Outofib
+|    |    |    |    |    |    |    |    |    |-- Outofic
+|    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |-- _Ttttttttttttttt
+|    |    |    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |-- Outofif
+|    |    |    |    |    |    |-- Outofif
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- _Ttttttttttttttt
+|    |    |    |    |-- if
+|    |    |    |    |    |-- &
+|    |    |    |    |    |    |-- &
+|    |    |    |    |    |    |    |-- =
+|    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |-- =
+|    |    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |-- =
+|    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |-- then
+|    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |-- 1
+|    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |-- if
+|    |    |    |    |-- |
+|    |    |    |    |    |-- |
+|    |    |    |    |    |    |-- <
+|    |    |    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |    |-- <
+|    |    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |-- <
+|    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |    |    |    |-- 0
+|    |    |    |    |-- then
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- -
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |    |    |-- 1
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- 0
+|    |    |-- if
+|    |    |    |-- !
+|    |    |    |    |-- <
+|    |    |    |    |    |-- _Aaaaaaaaaaaaaaa
+|    |    |    |    |    |-- +
+|    |    |    |    |    |    |-- _Bbbbbbbbbbbbbbb
+|    |    |    |    |    |    |-- _Ccccccccccccccc
+|    |    |    |-- then
+|    |    |    |    |-- output
+|    |    |    |    |    |-- 10
+|    |    |    |    |-- output
+|    |    |    |    |    |-- 0

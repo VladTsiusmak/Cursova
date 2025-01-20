@@ -1,0 +1,45 @@
+##Prog3##
+NAME prog3; 
+DATA INTEGER32_t _Aaaaaaaaaaaaaaa,_Aaaaaaaaaaaaaae,_Bbbbbbbbbbbbbbb,_Xxxxxxxxxxxxxxx,_Cccccccccccccci,_Cccccccccccccck;
+BODY
+INPUT _Aaaaaaaaaaaaaaa
+INPUT _Bbbbbbbbbbbbbbb
+FOR _Aaaaaaaaaaaaaae<==_Aaaaaaaaaaaaaaa TO _Bbbbbbbbbbbbbbb DO
+	OUTPUT _Aaaaaaaaaaaaaae * _Aaaaaaaaaaaaaae;
+
+FOR _Aaaaaaaaaaaaaae<==_Bbbbbbbbbbbbbbb DOWNTO _Aaaaaaaaaaaaaaa DO
+	OUTPUT _Aaaaaaaaaaaaaae * _Aaaaaaaaaaaaaae;
+
+_Xxxxxxxxxxxxxxx<==0
+_Cccccccccccccci<==0
+WHILE _Cccccccccccccci < _Aaaaaaaaaaaaaaa 
+BODY
+	_Cccccccccccccck<==0
+	WHILE _Cccccccccccccck < _Bbbbbbbbbbbbbbb
+	BODY	
+		_Xxxxxxxxxxxxxxx<==_Xxxxxxxxxxxxxxx + 1
+		_Cccccccccccccck<==_Cccccccccccccck + 1
+	END
+	END WHILE
+_Cccccccccccccci<==_Cccccccccccccci + 1
+END	
+END WHILE
+OUTPUT _Xxxxxxxxxxxxxxx
+
+_Xxxxxxxxxxxxxxx<==0
+_Cccccccccccccci<==1
+REPEAT
+BODY
+  _Cccccccccccccck<==1
+  REPEAT
+  BODY
+    _Xxxxxxxxxxxxxxx<==_Xxxxxxxxxxxxxxx + 1
+    _Cccccccccccccck<==_Cccccccccccccck + 1
+	END
+  UNTIL NOT(_Cccccccccccccck > _Bbbbbbbbbbbbbbb)
+  _Cccccccccccccci<==_Cccccccccccccci + 1
+ END
+UNTIL NOT(_Cccccccccccccci > _Aaaaaaaaaaaaaaa)
+OUTPUT _Xxxxxxxxxxxxxxx
+
+END
